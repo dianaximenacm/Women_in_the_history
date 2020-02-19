@@ -1,0 +1,23 @@
+
+.carousel-item img {
+    height: 500px;
+    width: auto;
+    margin: 0 auto;
+}
+.btn-primary{
+    background-color:#000000;
+    transition: all .5s ease;
+    border-color:black
+}
+
+.btn-primary:hover{
+    background-color: crimson;
+    color: #ffffff;
+    border-color: crimson;
+}
+.historia{
+    font-size: 18px;
+}
+#titulo{
+    font-family: 'Patua One', cursive;
+}

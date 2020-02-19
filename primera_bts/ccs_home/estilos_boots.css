@@ -1,0 +1,115 @@
+body{
+    font-family: 'ABeeZee', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo_history{
+    width: 180px ;
+    height: 40px;
+
+}
+.navbar{
+    background-color: aliceblue;
+    box-shadow: 0 2px 4px black;
+    min-height: 100px;
+    font-size: 1.1rem;
+}
+
+.nav-link{
+    columns: #000000;;
+}
+.nav-link:hover {
+    color: crimson;
+}
+nav.toggler{
+    font-size: 40px;
+}
+.navbar-toggler:focus{
+    outline:none
+}
+
+.iconodetails {
+    width: 75px;
+    margin: auto;
+    text-align: center;
+}
+.nav-user{
+    display: block;
+    padding-top: 8;
+    color:crimson
+}
+.contenedor{
+    background-color: black;
+}
+
+.imagenes-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px auto;
+    border-radius: 7px;
+    width:100%;
+    height: 80%;
+}
+.imagenes-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    width: 100%;
+    cursor:pointer;
+}
+.imagenes-container:hover img{
+-moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+}
+
+.imagenes-details{
+    position:absolute;
+    left: 25px;
+    bottom: 25px;
+    z-index: 100;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+}
+textarea{
+resize:none
+}
+
+#botonform{
+color: white;
+background-color: black;
+transition: all .3s ease;
+border-color:black;
+padding: 15px;
+width: 100%;
+border-radius: 5px;
+}
+
+#botonfor:hover{
+cursor: pointer;
+background-color:crimson;
+color:white;
+border-color: crimson;
+
+}
+/* Estilos Footer */
+
+footer{
+margin-top: 200px;
+padding: 90px 0;
+background-color: #000000;
+color:white;
+}
+
+footer a{
+    color:white
+}
+
+footer a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+
+footer .list-inline .list-inline-item{
+    padding: 10px 15px;
+}

@@ -46,8 +46,8 @@ nav.toggler{
     overflow: hidden;
     margin: 10px auto;
     border-radius: 7px;
-    width:100%;
-    height: 80%;
+    width:76%;
+    height: 82%;
 }
 .imagenes-container img{
     -moz-transition: all 0.8s;

@@ -42,4 +42,3 @@ if (txtMensaje == null || txtMensaje.length == 0) {
     alert("ERROR: El campo mensaje no debe ir vacio");
 }
 return true
-}
